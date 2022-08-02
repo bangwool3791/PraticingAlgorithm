@@ -1,0 +1,9 @@
+﻿  Test_KnuthMorrisPratt.c
+c:\books\excersice\algorithm\algorithm_sort\test_knuthmorrispratt.c(28): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\books\excersice\algorithm\algorithm_sort\test_knuthmorrispratt.c(38): warning C4267: '함수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다.
+  1 of 6 functions (16.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Algorithm_Sort.vcxproj -> C:\books\Excersice\Algorithm\x64\Release\Algorithm_Sort.exe
