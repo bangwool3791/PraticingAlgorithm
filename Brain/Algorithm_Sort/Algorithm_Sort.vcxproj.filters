@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Kruskal">
+      <UniqueIdentifier>{87c8f57d-c2db-453f-b0d0-ffa83a1df377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="메인 파일">
+      <UniqueIdentifier>{55dc944e-e925-48cc-a7fb-059a61d80655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{f6370f2f-3e78-46a5-a17b-b69277a74ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\FibonacciDP">
+      <UniqueIdentifier>{57b285d2-7bef-477f-b151-b5d22fb7e3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\CHT">
+      <UniqueIdentifier>{0f12786f-eb4e-40a1-adff-ffdaab624c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\BoyerMoore">
+      <UniqueIdentifier>{fc321f8e-dff0-40a7-acf3-bdf88347c380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\Graph">
+      <UniqueIdentifier>{ce3251f0-66de-4b1b-ad01-c7a873051ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\Heap">
+      <UniqueIdentifier>{0f4c77d4-6e13-4e5b-a3be-e62e998d5fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\Huffman">
+      <UniqueIdentifier>{f74b2502-f81f-4df0-8583-d965c6a7215c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\MazeSolver">
+      <UniqueIdentifier>{3bbb52ab-d779-47bf-ae78-ec18d55aa9a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\NQueens">
+      <UniqueIdentifier>{b6635b2d-9270-42d0-bcfe-790926839e13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Heap_main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Hash.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenAddressing.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionTree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DisjointSet.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="backjun.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphTraversal.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedQueue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularQueue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Kruskal\DisjointSet.c">
+      <Filter>Kruskal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Kruskal\MST.c">
+      <Filter>Kruskal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Kruskal\Test_MST.c">
+      <Filter>Kruskal</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_Disjoint.c">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_hash.c">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_TestExpressionTree.c">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_tree.c">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_shortestpath.c">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForce.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_BruteForce.c">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="KarpRabin.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="KnuthMorrisPratt.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Circularqueue.c">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_KarpRabin.c">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_KnuthMorrisPratt.c">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityQueue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort_Main.c">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="__try__finally.cpp">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="exception__finally.cpp">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TerminationHandlerEx1.cpp">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TerminationHandlerEx2.cpp">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FibonacciDnC.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LCSDP.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Makingchange.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMakingChange.c">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Huffman.c">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MyReturnCoin.cpp">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Graph.c">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortestPath.c">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="FibonacciDP.c">
+      <Filter>Algorithm\FibonacciDP</Filter>
+    </ClCompile>
+    <ClCompile Include="CHT.c">
+      <Filter>Algorithm\CHT</Filter>
+    </ClCompile>
+    <ClCompile Include="BoyerMoore.c">
+      <Filter>Algorithm\BoyerMoore</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.c">
+      <Filter>Algorithm\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap.c">
+      <Filter>Algorithm\Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="Huffman.c">
+      <Filter>Algorithm\Huffman</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeSolver.c">
+      <Filter>Algorithm\MazeSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="NQueens.c">
+      <Filter>Algorithm\NQueens</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Kruskal\DisjointSet.h">
+      <Filter>Kruskal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Kruskal\MST.h">
+      <Filter>Kruskal</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularQueue.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DisjointSet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionTree.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphTraversal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedQueue.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenAddressing.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BruteForce.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="KarpRabin.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="KnuthMorrisPratt.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Makingchange.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyReturnCoin.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortestPath.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="CHT.h">
+      <Filter>Algorithm\CHT</Filter>
+    </ClInclude>
+    <ClInclude Include="BoyerMoore.h">
+      <Filter>Algorithm\BoyerMoore</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Algorithm\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>Algorithm\Heap</Filter>
+    </ClInclude>
+    <ClInclude Include="Huffman.h">
+      <Filter>Algorithm\Huffman</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeSolver.h">
+      <Filter>Algorithm\MazeSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="NQueens.h">
+      <Filter>Algorithm\NQueens</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
