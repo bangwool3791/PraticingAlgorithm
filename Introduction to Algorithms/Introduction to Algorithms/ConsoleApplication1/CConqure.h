@@ -11,14 +11,27 @@ public :
 private :
 
 public :
-	void MERGE(std::vector<T> A, size_t p, size_t q, size_t r)
+
+	void MERGESORT(std::vector<T>& A, size_t p, size_t r)
+	{
+		if (p >= r)
+			return;
+
+		size_t q = (p + 1) / 2;
+		MERGESORT(A, p, q);
+		MERGESORT(A, q + 1, r);
+		
+		MERGE(A, p, q, r);
+	}
+
+	void MERGE(std::vector<T>& A, size_t p, size_t q, size_t r)
 	{
 		std::vector<T> L;
 		std::vector<T> R;
 
 		size_t LN{ q - p + 1 };
 		size_t RN{ r - q };
-
+		 
 		size_t i = 0, j = 0;
 		for (i = 0; i < LN - 1; ++i)
 			L.push_back(A[p + i]);
